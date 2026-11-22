@@ -3,6 +3,7 @@
 An interactive Python teaching tool for exploring how multiple reflections build up in a Fabry–Perot cavity, how the reflected waves cancel at resonance, and how tilted illumination produces circular fringes. The interface starts in English. Use the buttons at the top of any window to switch to French or Chinese.
 
 [中文使用说明](#中文使用说明)
+<img width="1257" height="746" alt="image" src="https://github.com/user-attachments/assets/35c0d746-a433-413e-aa7c-0dd45a6084d0" />
 
 ## Run locally
 
@@ -50,8 +51,18 @@ If Matplotlib starts with a non-interactive backend such as Agg, use a desktop P
 | Window | What to try |
 | --- | --- |
 | **Fabry–Perot interferometer** | Press **Play** to watch the wavefronts propagate, or **Step** to advance one frame. At zero detuning, **Jump to steady state** shows the cavity leakage cancelling the direct reflection while the incident wave keeps moving. |
+<img width="1254" height="745" alt="image" src="https://github.com/user-attachments/assets/ac2a40e8-d0da-4a45-a2bf-aba02dbbdbf2" />
+
+| Window | What to try |
+| --- | --- |
 | **Angle and beam width** | Set the reflectance to `0.99` and the angle to `25°`. With the center angle locked to resonance, compare a wide beam at `w/e = 1000` with a narrow beam at `w/e = 0.1`. The center angle remains resonant while total transmission drops from about 99.16% to 0.50%. |
+<img width="1254" height="748" alt="image" src="https://github.com/user-attachments/assets/4c774608-fe47-4dca-a485-0153cecfb489" />
+
+| Window | What to try |
+| --- | --- |
 | **Transmission and rings** | Compare Airy peaks and ring patterns under Gaussian and uniform illumination. Click a point in a ring image to follow its angle through the diverging lens, the cavity mirrors, and the focusing lens to the focal-plane screen. |
+<img width="1258" height="744" alt="image" src="https://github.com/user-attachments/assets/df4d325b-fc58-48dc-8384-021cf4818de7" />
+
 
 ## Model
 
